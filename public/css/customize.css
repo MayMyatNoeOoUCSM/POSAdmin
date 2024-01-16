@@ -1,0 +1,199 @@
+.table-warehouse-code-size {
+    width: 150px;
+}
+
+.table-edit-delete-size {
+    width: 50px;
+}
+
+.table-phone-size {
+    width: 200px;
+}
+
+.required:after {
+    content: '*';
+    color: red;
+    padding-left: 5px;
+}
+
+.right {
+    text-align: right;
+}
+
+tr {
+    text-align: center !important;
+}
+
+.custom_pg_size {
+    width: 60px !important;
+}
+
+.btn {
+    min-width: 100px !important;
+    background-color:#269956 !important;
+}
+
+#content {
+    border: 3px solid #dee2e6;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.card-footer > nav {
+    display: inline;
+    float: left;
+}
+
+.menu-active {
+    font-weight: bold;
+    /*color: #17a2b8;*/
+    color: #269956;
+}
+
+.btn_download {
+    color: #fff;
+    background-color: #1bbed8;
+    border-color: #1bbed8;
+    box-shadow: none;
+}
+
+    .btn_download:hover {
+        background-color: #3399cc;
+    }
+
+.btn_search,
+.btn_add {
+    color: #fff;
+    background-color: #1bbed8;
+    border-color: #1bbed8;
+    box-shadow: none;
+}
+
+    .btn_search:hover,
+    .btn_add:hover {
+        background-color: #0099ff;
+    }
+
+#login_content {
+    margin: 40px;
+}
+
+.inner h4 {
+    height: 56px;
+}
+
+/*Dashboard*/
+.cardBoxShadowNone {
+    background-color: transparent !important;
+    box-shadow: 0 0 0 0 !important
+}
+
+.paddingRight {
+    padding-right: 0.7rem;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.card-header-paddingLeft {
+    padding-left: 10px;
+}
+
+.card-body-padding {
+    padding: 10px;
+}
+
+.tablePaddingLeft {
+    padding-left: 0.7rem !important;
+}
+
+
+.tablePaddingRight {
+    padding-right: 0.7rem !important;
+}
+
+.btnTexLocationPadding {
+    padding: .375rem .75rem !important;
+}
+
+table tbody tr td {
+    vertical-align: middle !important;
+    text-align: left !important;
+}
+
+.headerHeight {
+    height: auto !important;
+}
+
+.smallBoxHeight {
+    height: 150px;
+}
+
+.produtInfoBoxHeight {
+    height: 125px;
+}
+
+.innerBoxMargin {
+    margin-top: 30px;
+    margin-bottom: 28px;
+}
+
+.small-box .icon i.fas,
+.small-box .icon i.far {
+    top: 35px;
+    right: 10px;
+}
+
+.saleTable {
+    border: 2px solid #dee2e6;
+    border-collapse: collapse;
+}
+
+    .saleTable td, .saleTable th {
+        border: 2px solid #dee2e6;
+        border-collapse: collapse;
+    }
+
+/*Edit Icon && Delete Icon*/
+
+.iconSize {
+    font-size: 18px;
+    color: #269956;
+}
+
+.iconButton {
+    border-style: none;
+    background-color: transparent;
+}
+
+/*Sale*/
+.rowMarginTop {
+    margin-top: 15px;
+}
+
+.checkboxes label {
+    margin: 0px 8px 0px 0px;
+}
+
+/*Staff*/
+.buttonMargin {
+    margin-top: -30px;
+}
+
+.mx-sm-2 {
+    margin-left: 0rem !important;
+}
+
+.card-header{
+    background: #269956 !important;
+}
+
+.alert-info {
+    background-color: #269956;
+}

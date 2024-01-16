@@ -1,0 +1,22 @@
+<?php
+namespace App\Http\Middleware;
+
+use Closure;
+use Illuminate\Http\Request;
+
+class XssSanitizer
+{
+    public function handle(Request $request, Closure $next)
+    {
+        $input = $request->all();
+        array_walk_recursive($input, function (&$input) {
+            // no choose date value null change to space
+            if ($input != null) {
+                $input = strip_tags($input);
+            }
+        });
+
+        $request->merge($input);
+        return $next($request);
+    }
+}
